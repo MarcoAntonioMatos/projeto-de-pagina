@@ -1,0 +1,86 @@
+.mosaico {
+    padding: 0 6%;
+}
+
+.flex-mosaico{
+    display: flex;
+}
+
+.item1-mosaico{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../imagens/mosaico1.jpg);
+    width: 60%;
+}
+
+.item2-mosaico{
+    background-color: #215170;
+    width: 40%;
+    padding:60px 40px;
+}
+
+.item2-mosaico p{
+    color: #fff;
+}
+
+.flex-mosaico2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item1-mosaico2{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../imagens/mosaico2.jpg);
+    width: 60%;
+}
+
+.item2-mosaico2{
+    background-color: #215170;
+    width: 40%;
+    padding:60px 40px;
+}
+
+.item2-mosaico2 p{
+    color: #fff;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 6%;
+    margin: 0 6%;
+    background-color: #d6d6d6;
+}
+
+footer p{
+    margin-top: 8px;
+}
+
+footer img{
+    padding-top: 10px;
+    width: 100px;
+}
+
+@media screen and (max-width:800px) {
+
+    .flex-mosaico,.flex-mosaico2{
+        display: block;
+    }
+
+    .item1-mosaico,.item1-mosaico2{
+        padding-top: 80%;
+        width: 100%;
+    }
+    .item2-mosaico,.item2-mosaico2{
+        text-align: justify;
+        width: 100%;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+    }
+}

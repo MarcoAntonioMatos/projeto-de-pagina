@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d6d6d6;
+    width: 100%;
+}
+
+.logo-1,.logo-2{
+    margin: 1.5rem 0;
+}
+
+.logo-1 img {
+    width: 8rem;
+}
+
+.logo-2 img {
+    width: 8rem;
+}
+
+
+@media screen and (max-width:510px) {
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
